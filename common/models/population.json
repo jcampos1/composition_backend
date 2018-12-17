@@ -1,0 +1,27 @@
+{
+  "name": "population",
+  "plural": "populations",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "result_percentage": {
+      "type": "number",
+      "required": true,
+      "postgresql": {
+        "dataType": "NUMERIC(10,2)"
+      },
+      "default": 0
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "ancestria": {
+    "host": "127.0.0.1",
+    "port": 5432,
+    "url": "postgres://postgres:poiupoiu@127.0.0.1:5432/ancestria",
+    "database": "ancestria",
+    "password": "poiupoiu",
+    "name": "ancestria",
+    "user": "postgres",
+    "connector": "postgresql"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "continent",
+  "plural": "continents",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "ancestria_snp": {
+      "type": "number",
+      "required": true,
+      "postgresql": {
+        "dataType": "NUMERIC(10,2)"
+      },
+      "default": 0
+    }
+  },
+  "validations": [],
+  "relations": {
+    "populations": {
+      "type": "hasMany",
+      "model": "population",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true,
+        "disableInclude": true
+      }
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
