@@ -187,5 +187,5 @@ module.exports = function(app) {
     });
   }
 
-  create_objects();
+  //create_objects();
 };
