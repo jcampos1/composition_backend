@@ -26,8 +26,8 @@
     "eslint-config-loopback": "^8.0.0"
   },
   "repository": {
-    "type": "",
-    "url": ""
+    "type": "git",
+    "url": "https://git.heroku.com/still-meadow-81556.git"
   },
   "license": "UNLICENSED",
   "description": "ancestria_backend"

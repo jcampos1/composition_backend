@@ -1,0 +1,51 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "db",
+    "public": false
+  },
+  "AccessToken": {
+    "dataSource": "ancestria",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "ancestria",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "ancestria",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "ancestria",
+    "public": false
+  },
+  "population": {
+    "dataSource": "ancestria",
+    "public": true
+  },
+  "continent": {
+    "dataSource": "ancestria",
+    "public": true
+  },
+  "custom_user": {
+    "dataSource": "ancestria",
+    "public": true
+  }
+}

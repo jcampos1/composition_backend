@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "ancestria": {
+    "host": "ec2-54-243-240-104.compute-1.amazonaws.com",
+    "port": 5432,
+    "url": "postgres://pnjpwykvtmtqgt:521f72ec21fe8f1773d593c759d3f6c75ec58078ef1d4abf1534896c4aa32158@ec2-54-243-240-104.compute-1.amazonaws.com:5432/ddrdbcipc7varh",
+    "database": "ddrdbcipc7varh",
+    "password": "521f72ec21fe8f1773d593c759d3f6c75ec58078ef1d4abf1534896c4aa32158",
+    "name": "ancestria",
+    "user": "postgres",
+    "connector": "postgresql"
+  }
+}
